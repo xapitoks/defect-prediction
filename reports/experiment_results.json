@@ -1,0 +1,52 @@
+{
+  "feature_ablation": {
+    "baseline_all_features": {
+      "Logistic Regression": 0.4309,
+      "Random Forest": 0.4444,
+      "XGBoost": 0.5077,
+      "Neural Network": 0.4113
+    },
+    "without_mccabe_complexity": {
+      "Logistic Regression": 0.432,
+      "Random Forest": 0.458,
+      "XGBoost": 0.4531,
+      "Neural Network": 0.4496
+    },
+    "without_halstead_metrics": {
+      "Logistic Regression": 0.4292,
+      "Random Forest": 0.4463,
+      "XGBoost": 0.4462,
+      "Neural Network": 0.4789
+    }
+  },
+  "smote_comparison": [
+    {
+      "model": "Logistic Regression",
+      "recall_no_smote": 0.6463,
+      "recall_with_smote": 0.6585,
+      "f1_no_smote": 0.4309,
+      "f1_with_smote": 0.4372
+    },
+    {
+      "model": "Random Forest",
+      "recall_no_smote": 0.3415,
+      "recall_with_smote": 0.5732,
+      "f1_no_smote": 0.4444,
+      "f1_with_smote": 0.5137
+    },
+    {
+      "model": "XGBoost",
+      "recall_no_smote": 0.4024,
+      "recall_with_smote": 0.561,
+      "f1_no_smote": 0.5077,
+      "f1_with_smote": 0.5897
+    },
+    {
+      "model": "Neural Network",
+      "recall_no_smote": 0.3537,
+      "recall_with_smote": 0.4756,
+      "f1_no_smote": 0.4113,
+      "f1_with_smote": 0.3881
+    }
+  ]
+}

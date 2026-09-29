@@ -1,0 +1,23 @@
+{
+  "loc": 9.0,
+  "v(g)": 1.0,
+  "ev(g)": 1.0,
+  "iv(g)": 1.0,
+  "n": 16.0,
+  "v": 57.06,
+  "l": 0.2,
+  "d": 3.5,
+  "i": 14.4,
+  "e": 213.97,
+  "b": 0.02,
+  "t": 11.89,
+  "lOCode": 5.0,
+  "lOComment": 0.0,
+  "lOBlank": 0.0,
+  "locCodeAndComment": 0.0,
+  "uniq_Op": 6.0,
+  "uniq_Opnd": 5.0,
+  "total_Op": 10.0,
+  "total_Opnd": 6.0,
+  "branchCount": 1.0
+}
